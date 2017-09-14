@@ -1,0 +1,27 @@
+{
+  "name": "tarefas",
+  "version": "1.0.0",
+  "description": "Gerenciador de Tarefas",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mauricio Belleza",
+  "license": "ISC",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrbelleza/tarefas.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrbelleza/tarefas/issues"
+  },
+  "homepage": "https://github.com/mrbelleza/tarefas#readme",
+  "dependencies":{
+    "express": "*",
+    "body-parser": "*",
+    "ejs": "^2.5.7",
+    "morgan": "*",
+    "redis": "*"
+  }
+}
